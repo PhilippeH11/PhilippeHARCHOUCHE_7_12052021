@@ -12,9 +12,9 @@
 - Installation de sequelize pour utiliser Mysql sur la machine locale.
 - Mamp, lamp ou wamp en fonction de votre système installé au préalable.
 - Exécutez la commande suivante dans le terminal pour installer le module sequelize
-``npm install --save sequelize``
+- ``npm install --save sequelize``
 - Puis tapez la commande suivante pour lancer le serveur.
-``npm start``
+- ``npm start``
 ```
 
 
