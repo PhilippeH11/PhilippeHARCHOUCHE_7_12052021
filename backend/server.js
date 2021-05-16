@@ -1,7 +1,7 @@
 const http = require('http'); //http de NODE
 const app = require('./app'); //Importation  de l'app
 
-const normalizePort = val => { // Renvoi un port valide numéro ou chaine ;
+const normalizePort = val => { // Renvoi un port valide numéro ou chaine;
   const port = parseInt(val, 10);
 
   if (isNaN(port)) {
@@ -24,11 +24,11 @@ const errorHandler = error => { //Gestion des erreurs et enregistrements
   const bind = typeof address === 'string' ? 'pipe ' + address : 'port: ' + port;
   switch (error.code) {
     case 'EACCES':
-      console.error(bind + ' requires elevated privileges.');
+      console.error(bind + ' Privilèges supérieurs requis.');
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error(bind + ' is already in use.');
+      console.error(bind + ' Port deja utilisé.');
       process.exit(1);
       break;
     default:
