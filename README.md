@@ -11,7 +11,7 @@ Enfin :
 npm run serve
 
 NB : Vue CLI  doit être installé, pour installer Vue CLI tapez la commande suivante dans votree terminal dans le dossier frontend :
-
+npm install -g @vue/cli
 ```
 ### Partie Backend :
 
